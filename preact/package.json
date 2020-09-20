@@ -1,0 +1,26 @@
+{
+  "name": "@alorel/eslint-config-preact",
+  "version": "1.0.0",
+  "description": "Preact eslint config",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alorel/eslint-config.git"
+  },
+  "keywords": [],
+  "author": "Arturas Molcanovas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Alorel/eslint-config/issues"
+  },
+  "homepage": "https://github.com/Alorel/eslint-config/tree/master/preact",
+  "peerDependencies": {
+    "eslint": ">=7.9.0",
+    "eslint-plugin-react": ">=7.20",
+    "eslint-plugin-react-hooks": ">=4.1.2"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://npm.pkg.github.com"
+  }
+}
