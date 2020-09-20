@@ -1,4 +1,19 @@
 module.exports = {
+  parserOptions: {
+    ecmaVersion: 2020,
+    sourceType: 'module',
+    ecmaFeatures: {
+      globalReturn: false,
+      impliedStrict: true,
+      jsx: true
+    }
+  },
+  env: {
+    node: true,
+    browser: true,
+    mocha: true,
+    worker: true
+  },
   extends: ['eslint:recommended'],
   rules: {
     'no-loss-of-precision': 'error',
