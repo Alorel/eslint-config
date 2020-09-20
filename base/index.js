@@ -5,6 +5,7 @@ module.exports = {
     ecmaFeatures: {
       globalReturn: false,
       impliedStrict: true,
+      experimentalDecorators: true,
       jsx: true
     }
   },
