@@ -1,0 +1,26 @@
+{
+  "name": "@alorel/eslint-config-typescript",
+  "version": "1.0.0",
+  "description": "Typescript eslint config",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alorel/eslint-config.git"
+  },
+  "keywords": [],
+  "author": "Arturas Molcanovas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Alorel/eslint-config/issues"
+  },
+  "homepage": "https://github.com/Alorel/eslint-config/tree/master/stypescript",
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": ">=4.1.1",
+    "@typescript-eslint/parser": ">=4.1.1",
+    "eslint": ">=7.9.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://npm.pkg.github.com"
+  }
+}
