@@ -281,7 +281,7 @@ module.exports = {
     'prefer-template': 'error',
     'require-yield': 'error',
     'rest-spread-spacing': ['error', 'never'],
-    'sort-imports': 'error',
+    'sort-imports': 'off',
     'symbol-description': 'error',
     'template-curly-spacing': 'error'
   }
