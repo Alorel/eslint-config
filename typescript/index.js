@@ -6,8 +6,14 @@ module.exports = {
     "plugin:@typescript-eslint/recommended"
   ],
   rules: {
-    'array-type': ['error', 'array-simple'],
+    '@typescript-eslint/array-type': [
+      'error',
+      {
+        default: 'array-simple',
+        readonly: 'array-simple'
+      }
+    ],
     '@typescript-eslint/ban-ts-comment': 'off',
-    'ban-tslint-comment': 'error'
+    '@typescript-eslint/ban-tslint-comment': 'error'
   }
 };
