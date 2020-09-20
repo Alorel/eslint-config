@@ -1,6 +1,6 @@
 {
   "name": "@alorel/eslint-config-typescript",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Typescript eslint config",
   "main": "index.js",
   "repository": {
@@ -13,7 +13,7 @@
   "bugs": {
     "url": "https://github.com/Alorel/eslint-config/issues"
   },
-  "homepage": "https://github.com/Alorel/eslint-config/tree/master/stypescript",
+  "homepage": "https://github.com/Alorel/eslint-config/tree/master/typescript",
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": ">=4.1.1",
     "@typescript-eslint/parser": ">=4.1.1",
