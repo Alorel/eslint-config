@@ -264,7 +264,7 @@ module.exports = {
     'arrow-spacing': 'error',
     'constructor-super': 'error',
     'generator-star-spacing': 'error',
-    'no-confusing-arrow': 'error',
+    'no-confusing-arrow': 'off',
     'no-duplicate-imports': 'error',
     'no-useless-computed-key': 'error',
     'no-useless-constructor': 'error',
