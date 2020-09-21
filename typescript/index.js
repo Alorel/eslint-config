@@ -19,10 +19,18 @@ module.exports = {
     '@typescript-eslint/ban-tslint-comment': 'error',
     '@typescript-eslint/explicit-module-boundary-types': ['error', {allowArgumentsExplicitlyTypedAsAny: true}]
   },
-  overrides: [{
-    files: ['*.js', '*.jsx'],
-    rules: {
-      '@typescript-eslint/explicit-module-boundary-types': 'off'
+  overrides: [
+    {
+      files: ['*.js', '*.jsx'],
+      rules: {
+        '@typescript-eslint/explicit-module-boundary-types': 'off'
+      }
+    },
+    {
+      files: ['*.ts', '*.tsx'],
+      rules: {
+        'no-useless-constructor': 'off'
+      }
     }
-  }]
+  ]
 };
