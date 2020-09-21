@@ -3,6 +3,7 @@ module.exports = {
     jsx: true
   },
   plugins: [
+    'react',
     'react-hooks'
   ],
   settings: {
