@@ -132,7 +132,7 @@ module.exports = {
     camelcase: [
       'error',
       {
-        properties: 'always',
+        properties: 'never',
         ignoreDestructuring: true,
         ignoreImports: true
       }
