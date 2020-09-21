@@ -18,7 +18,7 @@ module.exports = {
     '@typescript-eslint/explicit-module-boundary-types': ['error', {allowArgumentsExplicitlyTypedAsAny: true}]
   },
   overrides: [{
-    files: ['.js', '.jsx'],
+    files: ['*.js', '*.jsx'],
     rules: {
       '@typescript-eslint/explicit-module-boundary-types': 'off'
     }
