@@ -28,7 +28,7 @@ module.exports = {
     'react/jsx-no-duplicate-props': 2,
     'react/jsx-no-target-blank': 2,
     'react/jsx-no-undef': 2,
-    'react/jsx-tag-spacing': [2, { beforeSelfClosing: 'always' }],
+    'react/jsx-tag-spacing': [2, { beforeSelfClosing: 'never'}],
     'react/jsx-uses-react': 2, // debatable
     'react/jsx-uses-vars': 2,
     'react/self-closing-comp': 2,

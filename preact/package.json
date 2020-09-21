@@ -1,6 +1,6 @@
 {
   "name": "@alorel/eslint-config-preact",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Preact eslint config",
   "main": "index.js",
   "repository": {
