@@ -115,17 +115,11 @@ module.exports = {
     ],
     'array-bracket-newline': [
       'error',
-      {
-        multiline: true,
-        minItems: 5
-      }
+      'consistent'
     ],
     'array-element-newline': [
       'error',
-      {
-        multiline: true,
-        minItems: 5
-      }
+      'consistent'
     ],
     'array-bracket-spacing': ['error', 'never'],
     'brace-style': ['error', '1tbs'],
