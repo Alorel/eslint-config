@@ -1,6 +1,6 @@
 {
   "name": "@alorel/eslint-config-base",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Base eslint config",
   "main": "index.js",
   "repository": {

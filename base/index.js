@@ -55,6 +55,7 @@ module.exports = {
       'error',
       {
         ignore: [
+          -1,
           1,
           0,
           3600,
