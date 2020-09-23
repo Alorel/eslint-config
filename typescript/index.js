@@ -28,6 +28,15 @@ module.exports = {
       }
     },
     {
+      files: [
+        'build/**/*.js',
+        'rollup.config*.js'
+      ],
+      rules: {
+        '@typescript-eslint/no-var-requires': 'off'
+      }
+    },
+    {
       files: ['*.ts', '*.tsx'],
       rules: {
         'no-useless-constructor': 'off',

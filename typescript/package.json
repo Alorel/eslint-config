@@ -1,6 +1,6 @@
 {
   "name": "@alorel/eslint-config-typescript",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "Typescript eslint config",
   "main": "index.js",
   "repository": {
