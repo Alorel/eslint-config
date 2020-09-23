@@ -295,6 +295,12 @@ module.exports = {
       }
     },
     {
+      files: ['*.d.ts'],
+      rules: {
+        'no-var': 'off'
+      }
+    },
+    {
       files: ['js', 'jsx', 'ts', 'tsx']
         .reduce(
           (acc, ext) => {
