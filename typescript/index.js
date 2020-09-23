@@ -30,7 +30,8 @@ module.exports = {
     {
       files: ['*.ts', '*.tsx'],
       rules: {
-        'no-useless-constructor': 'off'
+        'no-useless-constructor': 'off',
+        'no-loop-func': 'off'
       }
     }
   ]
