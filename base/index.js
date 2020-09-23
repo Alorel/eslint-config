@@ -296,7 +296,8 @@ module.exports = {
           []
         ),
       rules: {
-        'no-magic-numbers': 'off'
+        'no-magic-numbers': 'off',
+        'max-lines-per-function': 'off'
       }
     }
   ]
