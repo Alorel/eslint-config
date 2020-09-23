@@ -286,6 +286,15 @@ module.exports = {
   },
   overrides: [
     {
+      files: [
+        'rollup.config*.js'
+      ],
+      rules: {
+        'complexity': 'off',
+        'max-lines-per-function': 'off'
+      }
+    },
+    {
       files: ['js', 'jsx', 'ts', 'tsx']
         .reduce(
           (acc, ext) => {
@@ -296,6 +305,7 @@ module.exports = {
           []
         ),
       rules: {
+        'complexity': 'off',
         'no-magic-numbers': 'off',
         'max-lines-per-function': 'off'
       }
