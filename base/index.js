@@ -283,5 +283,21 @@ module.exports = {
     'sort-imports': 'off',
     'symbol-description': 'error',
     'template-curly-spacing': 'error'
-  }
+  },
+  overrides: [
+    {
+      files: ['js', 'jsx', 'ts', 'tsx']
+        .reduce(
+          (acc, ext) => {
+            acc.push(`*.spec.${ext}`, `test/**/*.${ext}`);
+
+            return acc;
+          },
+          []
+        ),
+      rules: {
+        'no-magic-numbers': 'off'
+      }
+    }
+  ]
 };
