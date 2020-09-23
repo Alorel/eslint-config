@@ -291,6 +291,7 @@ module.exports = {
       ],
       rules: {
         'complexity': 'off',
+        'max-lines': 'off',
         'max-lines-per-function': 'off'
       }
     },
