@@ -20,6 +20,15 @@ module.exports = {
     '@typescript-eslint/no-explicit-any': 'off',
     '@typescript-eslint/no-unused-vars': 'error',
     '@typescript-eslint/ban-ts-comment': 'off',
+    '@typescript-eslint/no-use-before-define': [
+      'error',
+      {
+        enums: false,
+        functions: true,
+        ignoreTypeReferences: true,
+        typedefs: false
+      }
+    ],
     '@typescript-eslint/ban-tslint-comment': 'error',
     '@typescript-eslint/explicit-module-boundary-types': ['error', {allowArgumentsExplicitlyTypedAsAny: true}],
     '@typescript-eslint/no-magic-numbers': ['error', {
@@ -29,6 +38,7 @@ module.exports = {
     }],
     '@typescript-eslint/no-shadow': 'error',
     'no-magic-numbers': 'off',
+    'no-use-before-define': 'off',
     'no-shadow': 'off'
   },
   overrides: [
