@@ -37,6 +37,7 @@ module.exports = {
       ignoreNumericLiteralTypes: true
     }],
     '@typescript-eslint/no-shadow': 'error',
+    '@typescript-eslint/no-floating-promises': 'error',
     'no-magic-numbers': 'off',
     'no-use-before-define': 'off',
     'no-shadow': 'off'
