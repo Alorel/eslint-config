@@ -1,6 +1,6 @@
 {
   "name": "@alorel/eslint-config-base",
-  "version": "1.0.16",
+  "version": "1.0.17",
   "description": "Base eslint config",
   "main": "index.js",
   "repository": {
@@ -14,6 +14,9 @@
     "url": "https://github.com/Alorel/eslint-config/issues"
   },
   "homepage": "https://github.com/Alorel/eslint-config/tree/master/base",
+  "dependencies": {
+    "@alorel/eslint-config-shared": "^1.0.0"
+  },
   "peerDependencies": {
     "eslint": ">=7.9.0"
   },

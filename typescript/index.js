@@ -1,3 +1,5 @@
+const noMagicNumbersConfig = require('@alorel/eslint-config-shared/no-magic-numbers');
+
 module.exports = {
   parser: '@typescript-eslint/parser',
   plugins: ['@typescript-eslint'],
@@ -20,7 +22,13 @@ module.exports = {
     '@typescript-eslint/ban-ts-comment': 'off',
     '@typescript-eslint/ban-tslint-comment': 'error',
     '@typescript-eslint/explicit-module-boundary-types': ['error', {allowArgumentsExplicitlyTypedAsAny: true}],
+    '@typescript-eslint/no-magic-numbers': ['error', {
+      ...noMagicNumbersConfig,
+      ignoreEnums: true,
+      ignoreNumericLiteralTypes: true
+    }],
     '@typescript-eslint/no-shadow': 'error',
+    'no-magic-numbers': 'off',
     'no-shadow': 'off'
   },
   overrides: [

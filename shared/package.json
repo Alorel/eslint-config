@@ -1,7 +1,7 @@
 {
-  "name": "@alorel/eslint-config-typescript",
-  "version": "1.0.14",
-  "description": "Typescript eslint config",
+  "name": "@alorel/eslint-config-shared",
+  "version": "1.0.0",
+  "description": "Shared eslint config props",
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -13,13 +13,8 @@
   "bugs": {
     "url": "https://github.com/Alorel/eslint-config/issues"
   },
-  "homepage": "https://github.com/Alorel/eslint-config/tree/master/typescript",
-  "dependencies": {
-    "@alorel/eslint-config-shared": "^1.0.0"
-  },
+  "homepage": "https://github.com/Alorel/eslint-config/tree/master/base",
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": ">=4.1.1",
-    "@typescript-eslint/parser": ">=4.1.1",
     "eslint": ">=7.9.0"
   },
   "publishConfig": {

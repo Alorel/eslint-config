@@ -1,3 +1,5 @@
+const noMagicNumbersConfig = require('@alorel/eslint-config-shared/no-magic-numbers');
+
 module.exports = {
   parserOptions: {
     ecmaVersion: 2020,
@@ -53,30 +55,7 @@ module.exports = {
     'no-loop-func': 'error',
     'no-magic-numbers': [
       'error',
-      {
-        ignore: [
-          -1,
-          1,
-          0,
-          3600,
-          3600000,
-          60000,
-          1000,
-          1024,
-          86400000,
-          86400000000,
-          30,
-          60,
-          24,
-          365,
-          365.24,
-          31,
-          28
-        ],
-        ignoreArrayIndexes: true,
-        ignoreDefaultValues: true,
-        enforceConst: true
-      }
+      noMagicNumbersConfig
     ],
     'no-multi-spaces': 'error',
     'no-multi-str': 'error',
