@@ -185,7 +185,7 @@ module.exports = {
         max: 1
       }
     ],
-    'multiline-comment-style': 'error',
+    'multiline-comment-style': 'off',
     'multiline-ternary': ['error', 'always-multiline'],
     'new-parens': 'error',
     'newline-per-chained-call': [
